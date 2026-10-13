@@ -6,9 +6,9 @@
 
 Doubt, judgment, and grounds of knowledge. A bounded, source-linked thinking resource with neutral analysis by default and an explicitly enabled expression mode.
 
-Built using [Nuwa by Huashu](https://github.com/alchaincyf/nuwa-skill), with primary-source research and independent model evaluation.
+Built with [nvwa-skill](https://github.com/alchaincyf/nuwa-skill).
 
-[Usage](USAGE.md) · [Research and entry point](SKILL.md) · [Evaluation](FIDELITY.md)
+[Usage](USAGE.md) · [Research and entry point](SKILL.md)
 
 ## Installation
 
@@ -42,16 +42,10 @@ Ask: “Use René Descartes's ideas to analyze this problem, separating source c
 
 The [entry point](SKILL.md) routes to documented, bounded methods and [extraction notes](EXTRACTION.md). The research directory records sources, actual reading ranges, translations, and unresolved gaps. It is not a distillation of the complete works. Research notes remain in their original languages.
 
-## Evaluation snapshot
+## License
 
-R3 independent scores: **90/100** and **88/100**. Both reviewers at A with no unresolved blocker: **yes**. [Full record](FIDELITY.md).
+Project-original material is [MIT licensed](LICENSE). Source quotations retain their separate rights. See [attribution](ATTRIBUTION.md).
 
-This release preserves the user-accepted snapshot; score optimization has stopped. Scores are model evaluations of the frozen Chinese runtime files, not academic certification or a new evaluation of this release packaging. The initial anonymous test omitted the question wording; this limitation and subsequent checks are retained. Some expression or reasoning weaknesses remain.
+## More skills
 
-## Related skills
-
-[Independent repository](https://github.com/jiushiaaa/descartes-skill) · [Philosophy Skills collection](https://github.com/jiushiaaa/Philosophy-Skills) — 21 original and 25 attributed upstream modules, kept independent.
-
-## Acknowledgments and license
-
-Thanks to Huashu / alchaincyf, Nuwa, the Agent Skills contributors, and the primary-source editors listed in the research notes. See [attribution](ATTRIBUTION.md). Project-original material is [MIT licensed](LICENSE); third-party source quotations retain their rights. README and usage documentation are bilingual; research notes are not represented as fully translated.
+Explore more thinkers and writers in the [Philosophy Skills collection](https://github.com/jiushiaaa/Philosophy-Skills).
