@@ -1,0 +1,98 @@
+{
+  "id": "descartes-perspective",
+  "known_positions": [
+    {
+      "q": 1,
+      "score": 10,
+      "reason": "理性能力共有与运用路径不同分清",
+      "source": "Discours de la méthode I；本轮直接核，见source_audit"
+    },
+    {
+      "q": 2,
+      "score": 10,
+      "reason": "真实历史仍有删选，缺日常条件导致过度模仿",
+      "source": "Discours de la méthode I；本轮直接核，见source_audit"
+    },
+    {
+      "q": 3,
+      "score": 10,
+      "reason": "修辞诗学非必要条件，不误推学习无用",
+      "source": "Discours de la méthode I；本轮直接核，见source_audit"
+    }
+  ],
+  "source_audit": [
+    {
+      "url": "https://www.gutenberg.org/files/13846/13846-h/13846-h.htm",
+      "status": "direct_read",
+      "scope": "HTTP HTML p74–88法文直接读取，索引非印页"
+    }
+  ],
+  "judge": "B",
+  "model": "unknown",
+  "voice": {
+    "score": 11,
+    "reason": "盲认主要依意志越出理解；行动与认识分开的推进有据，但声音多数仍为通用分析。",
+    "blind_guess": {
+      "code": "N19",
+      "guess": "笛卡尔",
+      "confidence": 0.81,
+      "alternatives": [
+        "斯宾诺莎",
+        "叔本华"
+      ],
+      "formal_features": "先问理由的先后，再区分行动坚定与认识正确，最后将风险压缩为两个能力的越界。",
+      "content_clues": "意志越出了理解的范围是明确线索，联系意志与理智的不对称及判断错误。",
+      "limits": "主要由末句理论关键词识别；前文仍是共享的审慎论证框架。"
+    },
+    "limits": "主要由末句理论关键词识别；前文仍是共享的审慎论证框架。 正式只用Q5，Q6不加分。"
+  },
+  "sources": {
+    "score": 14,
+    "reason": "原作版本、已读局部与未读范围可追；原文直接核查支持已知题，但不等于全书精读或校勘。",
+    "primary_ratio_basis": "方法谈、沉思、通信3部一手对SEP1，3/4；Bennett现代化文本与法拉原文须分清。"
+  },
+  "structure": {
+    "score": 13,
+    "reason": "入口有具体动作、反例及停止条件，张力有原作定位；局部程序和候选不视为已证成熟跨域模型。",
+    "models": [
+      "知识根据",
+      "复杂论证次序",
+      "不确定行动",
+      "心身范畴"
+    ],
+    "boundaries": [
+      "怀疑非证伪",
+      "我思不担保经历",
+      "不能部分相加替代整体",
+      "机械不足非解决心身"
+    ],
+    "tensions": [
+      "能力平等／运用差别",
+      "求真谨慎／坚定行动"
+    ]
+  },
+  "edge": {
+    "score": 20,
+    "reason": "统一开场说明人物模拟；Q4正文明确为当代迁移或推断，保留未知和所缺依据，没有伪装成作者历史表态。"
+  },
+  "paired_comparison": {
+    "code": "P02",
+    "blind_preference": "mixed",
+    "mapped_preference": "mixed",
+    "reasoning": "first在必须行动时作临时选择，清楚区分行动决断与认知确定；second以熟悉只能说明反复更直接揭示证据不足。二者都没有把一切习惯当错误。",
+    "expression": "first的暂缓断定到临时选择推进较细；second问句更明白，但熟悉／正确的格言式对举未必更有作者特征。",
+    "post_unblinding_issues": [
+      "解盲核对Q6完整题干：仅说习惯可能遮蔽注意；原盲判保留，没有从可能性直接裁成所有习惯有害。"
+    ],
+    "limits": "两版优势不同；约百字无法判断行动与怀疑的界限是否符合具体作者。 R2为Q5、R3为Q6，不是单变量实验。"
+  },
+  "blockers": [],
+  "limitations": [
+    "中文短样本及少数题，不能代表全书、全时期或人类专家认证。",
+    "原作仅核查source_audit所列位置；其余研究阅读记录为继承材料，不声称本评审通读。"
+  ],
+  "total": 88,
+  "grade": "A",
+  "original_report_sha256": "ac98043b89e939f4e0a174c3cbf4a4c0a92eddfa2e8990f283936efcaec03309",
+  "export_note": "Local read-path metadata omitted. Scores and judgments unchanged."
+}

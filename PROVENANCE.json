@@ -1,0 +1,30 @@
+{
+  "id": "descartes-perspective",
+  "author": "jiushiaaa",
+  "method": "https://github.com/alchaincyf/nuwa-skill",
+  "source_snapshot": "frozen-r3",
+  "snapshot_manifest": {
+    "id": "descartes-perspective",
+    "files": {
+      "questions.json": "ee037d7bf5fbd49801bdfce58fa66de80292898d5d59b11f235a29c842e95e2a",
+      "skill/EXTRACTION.md": "7de8333a8bc4ae6699219c3039cfeb82717a32891933a9409612146990805bdc",
+      "skill/references/persona-expression.md": "b15d86da9dac32791dc43425cda61c334dde1fa9d349b2e1b97f3e3569a4822e",
+      "skill/references/research/01-writings.md": "bfd863f2449de5cd5f2452fbaf29c7d8fbf885bb74b94dc880c1600256fcee8e",
+      "skill/references/research/02-conversations.md": "09f971fd38e6f335cf605059c5432c62e1fab4be8cd7ba318b6f1226869acb50",
+      "skill/references/research/03-expression-dna.md": "fec8cce827ad4c5c87dd321bbaf4f2b4f6818e810f2b4108360471abd90ebf8a",
+      "skill/references/research/04-external-views.md": "d6baf64562cd7c9a45c8d738c847ec52b89bfc66ffd36ba4cbec9dc9bdb2d8eb",
+      "skill/references/research/05-decisions.md": "2fafa13f903a097a324a4628d9525d8119660d50054b027a243f43c2c456d28c",
+      "skill/references/research/06-timeline.md": "9928e5cfa2b51215240745a663b8ef2f4bec68fd0c95fa47cceeb921ad065c5a",
+      "skill/references/research/07-verification-plan.md": "11a0fff8f75a6ef0a97c4228c51bd60ae326f0fb24ddf8ebcf2f81eea9b228cf",
+      "skill/references/research/10-deep-primary-language.md": "8ba910ca805c93eea2d5c8ef6c539bc12e6d03838c0a2a455756184e1ca8f7cf",
+      "skill/references/research/12-nuwa-a-evidence.json": "84a4b8fff248eb70d95c4971b1192be4184c18eb2502378abe44d337769fe9b6",
+      "skill/references/research/12-nuwa-a-evidence.md": "c1836e11908bbfccf8c3589655d6a25462ae61e4679681195835f3389aca9075",
+      "skill/references/research/13-primary-argument-chains.json": "78334b8be5748bbcf7e0a1ce02397cade8ad306247985245af1dff511aee255f",
+      "skill/references/research/13-primary-argument-chains.md": "d0d812027c6c74b0242a843442012a9be330b0eb15e1384eb1735c56624f9e64",
+      "skill/references/research/source-catalog.md": "f0847ce7455c51298a9cc139e9f9659f8eb7f577e4cd3896df5e36f9c1c9fdcd",
+      "skill/SKILL.md": "d4e570582f9498facb24e126f340ff623c566194cd073cfbdc157dd6cd3241e7"
+    },
+    "historical_validation_excluded": true
+  },
+  "public_packaging": "Bilingual readmes and usage, attribution, license, sanitized local paths; no score optimization."
+}

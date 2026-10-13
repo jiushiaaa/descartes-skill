@@ -1,0 +1,85 @@
+{
+  "id": "descartes-perspective",
+  "judge": "A",
+  "model": "unknown",
+  "known_positions": [
+    {
+      "q": 1,
+      "score": 10,
+      "reason": "区分共有理性与运用路径、记忆想象差别，未让能力平等变成意见等真。",
+      "source": "Discours I，直接法文L541–547；https://www.gutenberg.org/files/13846/13846-h/13846-h.htm"
+    },
+    {
+      "q": 2,
+      "score": 10,
+      "reason": "历史即便真实也会省略卑微条件，使读者计划超出能力；明确选择效应而非断言捏造。",
+      "source": "同作L557–560直接核"
+    },
+    {
+      "q": 3,
+      "score": 10,
+      "reason": "才能和清晰表达不以学校规则为必要，保留学习可能有用，未倒置为未学者必更好。",
+      "source": "同作L561–562直接核"
+    }
+  ],
+  "voice": {
+    "score": 13,
+    "blind_guess": "笛卡尔",
+    "reason": "较有辨识的行动坚定／认识确定区分与末句意志越出理解；后者是强内容标记，形式并未达到高度复现。",
+    "limits": "首次盲猜与置信以已锁定A-blind.json为准；此单题组织高度共享，思想词不直接折算口吻，未做原语言文体认证。"
+  },
+  "edge": {
+    "score": 20,
+    "reason": "开场标明模拟，Q4正文明确区分框架迁移与作者真实立场，并保留事实及规范证据不足，未虚构当代意见。"
+  },
+  "sources": {
+    "score": 14,
+    "reason": "法文方法谈可直接核，沉思与通信的Bennett改写标得清楚，拉丁增补未冒充整部校勘。",
+    "primary_ratio_basis": "方法谈、沉思、通信3部一手内容，SEP1二手；第四沉思拉丁版本仍属于沉思同作，3/4。"
+  },
+  "structure": {
+    "score": 13,
+    "reason": "4个有限程序区分奠基怀疑、分解次序、行动期限与范畴；步骤反例清楚，但晚期伦理和完整身心往返信仍不足。",
+    "models": [
+      "分级怀疑",
+      "分解排序复核",
+      "求真与行动期限",
+      "解释范畴检查"
+    ],
+    "boundaries": [
+      "悬置不等于证伪",
+      "理性共有不使意见等真",
+      "临时道德不是现代概率理论",
+      "身体机制需独立科学"
+    ],
+    "tensions": [
+      "理性平等／运用差异",
+      "求真谨慎／及时坚定行动"
+    ]
+  },
+  "total": 90,
+  "grade": "A",
+  "blockers": [],
+  "limitations": [
+    "单次离线答题、中文短段和局部原作核查不代表整个人格或全体系；直接打开不等于通读。",
+    "初次盲读缺完整题干，Q5/Q6共同题型容易诱发同构回答；辨识成功可能依赖概念线索，非纯文体命中。"
+  ],
+  "source_verification": [
+    {
+      "url": "https://www.gutenberg.org/files/13846/13846-h/13846-h.htm",
+      "status": "direct_partial",
+      "read": "先误开编者叙述L200不当作者；后定位直接核第一部L541–562，未通读作品"
+    }
+  ],
+  "paired_comparison": {
+    "code": "P02",
+    "blind_preference": "first",
+    "mapped_result": "r3_better",
+    "post_unblinding_issues": [
+      "设计限制：首次匿名包未附完整题干；现已核冻结Q5/Q6。Q6只称可能不留意，并未断言每一习惯已经有害。盲判的条件性措辞疑点保留为歧义，不自动升级为确定错误；不回写盲判。Q5充分理由是否指客观充分或当事人自认充分也未定义，询问检验条件不直接算偷换题设。"
+    ],
+    "basis": "保留哈希锁定A-paired-blind.json的reasoning、expression及limits；仅据paired-mapping-private.json映射版本，不倒改初评。"
+  },
+  "original_report_sha256": "52d8c68eb0ecdbda597f72d078b035a818d11982789bff86a595a7b277f261f0",
+  "export_note": "Local read-path metadata omitted. Scores and judgments unchanged."
+}
